@@ -1,0 +1,248 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+body, div, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+li {
+    display: inline;
+    float: right;
+    margin-top: 14px;
+    margin-right: 20px;
+}
+li a {
+    display: block;
+    color: #FFFDFD;
+    text-align: center;
+    padding: 12px 8px;
+    text-decoration: none;
+}
+
+#container {
+    background-color: #E5E5E5;
+}
+
+.create-order-button {
+    padding: 12px 49px;
+    margin-left: 20px;
+    margin-right: 80px;
+    border-radius: 3px;
+    background-color: #2A1D17;
+}
+.menu {
+    height: 70px;
+    background-color: #464547;
+}
+
+.content {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.information-block {
+    display: flex;
+    justify-content: space-between;
+    max-height: 500px;
+    margin-bottom: 70px;
+    background-color: #DEAE83;
+}
+
+.description-block {
+    padding: 62px 0 0 110px;
+    font-size: 14px;
+}
+
+.information-title {
+    max-width: 385px;
+}
+
+.information-title h1 {
+    margin: 0;
+    padding-bottom: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.image-block img {
+    position: relative;
+    top: -35px;
+}
+
+.circle-block {
+    display: flex;
+    margin-top: 98px;
+}
+
+.circle {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.circle span {
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+.reviews-block {
+    background-color: white;
+}
+
+.reviews-title {
+    padding-top: 55px;
+    text-align: center;
+}
+
+.review-card-block {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.review-card {
+    width: 190px;
+    margin-right: 50px;
+}
+
+.review-card img {
+    display: block;
+    margin: auto;
+}
+
+.card-name {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 14px;
+    border-top: 1px solid rgba(153, 152, 152, 0.4);
+    border-bottom: 1px solid rgba(153, 152, 152, 0.4);
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.create-order-block {
+    display: flex;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.create-order-title {
+    padding-bottom: 10px;
+}
+
+.map-block {
+    width: 50%;
+}
+
+.map-block img {
+    width: 100%;
+}
+
+.form-block {
+    padding: 50px 0 0 110px;
+}
+
+.input {
+    display: block;
+    width: 342px;
+    height: 35px;
+    border: 1px solid #CBCACA;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.input:focus {
+    border: 2px solid #1A7BEE;
+}
+
+.prefix-number {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+.short-input {
+    display: inline;
+    width: 38px;
+    margin: 0 5px;
+}
+
+.medium-input {
+    display: inline;
+    width: 255px;
+}
+
+.time-input {
+    margin: 0;
+}
+
+.time-description {
+    font-size: 11px;
+    color: #424141;
+}
+
+.submit-button {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #2A1D17;
+    font-size: 13px;
+    color: white;
+    border-radius: 2px;
+}
+
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    height: 260px;
+    background-color: #464547;
+}
+
+.column {
+    align-self: flex-end;
+    margin-right: 90px;
+    color: white;
+    font-size: 14px;
+}
+
+.column p {
+    padding: 10px 0;
+}
+
+.partners {
+    margin-right: 30px;
+}
+
+.partners img {
+    display: block;
+    padding-bottom: 25px;
+}
